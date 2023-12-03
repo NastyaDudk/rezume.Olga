@@ -1,4 +1,6 @@
 .sidebar {
+  margin: 10px;
+  height: 1295px;
   width: 230px;
   height: 100%;
   background-color: #ffefd5;
@@ -10,8 +12,29 @@
 }
 
 .content {
+  margin-left: 290px;
   width: 100%;
-  background-color: beige;
-  margin-left: 220px; /* збільшити значення для відступу від sidenav */
   padding: 25px;
+  background-color: beige;
+  margin: 10px 20px 10px 250px;
+}
+
+h1 {
+  background-color: #008080;
+  color: #fafafa;
+  text-align: center;
+}
+
+h2 {
+  background-color: #008080;
+  color: #fafafa;
+  text-align: center;
+  font-size: 25px;
+}
+
+.job-title {
+  background-color: #008080;
+  text-align: center;
+  color: #fafafa;
+  font-size: 20px;
 }
