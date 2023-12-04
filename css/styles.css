@@ -31,16 +31,17 @@ h2 {
 }
 
 .summary {
-  padding-left: 25px;
+  text-align: center;
+  padding-left: 210px;
   display: flex;
   width: 205px;
   height: 35px;
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
-  padding-top: 40px;
+  padding-top: 20px;
   line-height: 4.28;
   letter-spacing: -0.023em;
 }
@@ -52,10 +53,21 @@ h2 {
 .sidebar {
   min-width: 600px;
   background-color: #d4c2ad;
-  height: 1120px;
+  height: 700px;
   /* position: fixed; */
   left: 0;
   top: 0;
+}
+
+.soc-mej {
+  display: flex;
+  gap: 20px;
+  padding-left: 220px;
+  list-style-type: none;
+}
+
+.soc-mej-item {
+  color: #000;
 }
 
 .contacts {
@@ -82,7 +94,7 @@ h2 {
 .my-contact {
   width: 93px;
   height: 30px;
-  padding-left: 36px;
+  padding-left: 250px;
   padding-top: 21px;
 }
 
@@ -91,7 +103,9 @@ h2 {
 }
 
 .about-me {
-  padding-left: 25px;
+  text-align: center;
+  padding-left: 180px;
+  padding-bottom: 50px;
   width: 300px;
   color: #fff;
   font-size: 12px;
@@ -101,7 +115,8 @@ h2 {
 }
 
 .name {
-  padding-left: 25px;
+  padding-left: 150px;
+  padding-top: 25px;
   display: flex;
   width: 339px;
   color: #fff;
@@ -113,6 +128,17 @@ h2 {
   height: 40px;
   flex-direction: column;
   justify-content: center;
+}
+
+.foto-top {
+  padding-left: 250px;
+}
+
+.foto-side {
+  opacity: 0;
+  overflow: hidden;
+  width: 5px;
+  height: 1px;
 }
 
 .projects {
@@ -129,7 +155,8 @@ h2 {
 }
 
 .job-title {
-  padding-left: 75px;
+  padding-bottom: 30px;
+  padding-left: 200px;
   display: flex;
   width: 235px;
   height: 21px;
