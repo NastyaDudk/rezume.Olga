@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: #66796b;
   font-style: normal;
+  padding-left: 200px;
 }
 
 p,
@@ -15,6 +16,23 @@ h6 {
   margin-bottom: 0;
 }
 
+.wrapper {
+  min-width: 385px;
+}
+
+.summary {
+  display: flex;
+  width: 205px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 40px;
+  line-height: 4.28;
+  letter-spacing: -0.023em;
+}
 .first-text {
   margin: 0 auto;
   padding: 0;
@@ -33,7 +51,6 @@ h6 {
 
 .about-me {
   width: 300px;
-  padding-left: 200px;
   color: #fff;
   font-size: 12px;
   font-weight: 500;
@@ -47,7 +64,6 @@ h6 {
 }
 
 .name {
-  padding-left: 250px;
   display: flex;
   width: 339px;
   color: #fff;
@@ -62,7 +78,6 @@ h6 {
 }
 
 .projects {
-  padding-left: 290px;
   display: flex;
   width: 256px;
   height: 30px;
@@ -83,7 +98,6 @@ h6 {
   height: 21px;
   flex-direction: column;
   justify-content: center;
-  padding-left: 300px;
   color: #fff;
   text-align: center;
   font-size: 14px;
