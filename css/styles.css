@@ -30,6 +30,9 @@ h2 {
   justify-content: center;
 }
 
+.container {
+  min-width: 320px;
+}
 .summary {
   text-align: center;
   padding-left: 210px;
