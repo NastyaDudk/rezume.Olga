@@ -63,7 +63,7 @@ h2 {
 
 .sidebar {
   background-color: #d4c2ad;
-  height: 950px;
+  height: 870px;
   padding: 0px 30px 0px 30px;
   /* position: fixed; */
   left: 0;
@@ -176,7 +176,7 @@ h2 {
 }
 
 .my-tech {
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 16px;
   letter-spacing: -0.025em;
 }
@@ -188,7 +188,7 @@ h2 {
 }
 
 .what-i-can {
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 14px;
   padding: 0px 10px 0px 10px;
 }
@@ -220,6 +220,8 @@ h2 {
 }
 
 .my-achieve {
+  font-size: 14px;
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
