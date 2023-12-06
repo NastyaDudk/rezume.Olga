@@ -305,7 +305,7 @@ h2 {
   .sidebar {
     overflow: scroll;
     height: 100%;
-    width: 190px;
+    width: 250px;
     position: fixed;
     padding: 0px 10px 0px 10px;
   }
@@ -325,6 +325,8 @@ h2 {
     letter-spacing: normal;
   }
   .my-skills {
+    padding-left: 50px;
+    padding-right: 20px;
     text-align: left;
   }
 
@@ -388,13 +390,13 @@ h2 {
 
   .summary {
     text-align: left;
-    padding-left: 90px;
+    padding-left: 150px;
     padding-top: 5px;
   }
 
   .about-me {
     text-align: left;
-    padding: 5px 50px 50px 90px;
+    padding: 5px 50px 50px 150px;
     font-size: 16px;
     margin-bottom: 20px;
     font-weight: 500;
@@ -411,7 +413,7 @@ h2 {
   }
 
   .pet-projects-list {
-    padding-left: 40px;
+    padding-left: 200px;
   }
 
   p,
@@ -439,12 +441,12 @@ h2 {
   .my-expirience,
   .my-education,
   .additional-education {
-    margin-left: 10px;
+    margin-left: 80px;
   }
 
   .my-tasks {
+    padding-left: 200px;
     text-align: left;
-    margin-left: 40px;
   }
 
   .my-pos,
@@ -454,7 +456,7 @@ h2 {
   .country-year,
   .my-study,
   .my-school {
-    margin-left: 40px;
+    padding-left: 200px;
   }
 
   .my-achieve {
@@ -479,5 +481,6 @@ h2 {
   .my-study,
   .spec-date {
     text-align: center;
+    padding-right: 100px;
   }
 }
