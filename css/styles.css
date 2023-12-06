@@ -68,8 +68,7 @@ h2 {
 
 .sidebar {
   background-color: #d4c2ad;
-
-  height: 840px;
+  height: 900px;
   padding: 0px 30px 0px 30px;
   /* position: fixed; */
   left: 0;
@@ -461,5 +460,24 @@ h2 {
   .my-achieve {
     margin-bottom: 10px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 875px) {
+  .pet-projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 90px;
+  }
+
+  .my-study-f,
+  .country-year,
+  .my-achieve,
+  .achievements,
+  .my-tasks,
+  .my-pos,
+  .my-study,
+  .spec-date {
+    text-align: center;
   }
 }
