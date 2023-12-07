@@ -388,6 +388,11 @@ h2 {
     padding: 0;
   }
 
+  .name,
+  .job-title {
+    padding-left: 80px;
+  }
+
   .summary {
     text-align: left;
     padding-left: 150px;
@@ -413,7 +418,7 @@ h2 {
   }
 
   .pet-projects-list {
-    padding-left: 200px;
+    padding-left: 250px;
   }
 
   p,
@@ -441,11 +446,11 @@ h2 {
   .my-expirience,
   .my-education,
   .additional-education {
-    margin-left: 80px;
+    margin-left: 200px;
   }
 
   .my-tasks {
-    padding-left: 200px;
+    padding-left: 250px;
     text-align: left;
   }
 
@@ -456,12 +461,43 @@ h2 {
   .country-year,
   .my-study,
   .my-school {
-    padding-left: 200px;
+    padding-left: 250px;
   }
 
   .my-achieve {
     margin-bottom: 10px;
     margin-top: 20px;
+  }
+
+  .achievements {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .pet-projects-list {
+    padding-left: 180px;
+  }
+
+  .my-tasks {
+    padding-left: 180px;
+  }
+
+  .my-pos,
+  .achievements,
+  .my-achieve,
+  .my-study-f,
+  .country-year,
+  .my-study,
+  .my-school {
+    padding-left: 180px;
+  }
+
+  .projects,
+  .my-expirience,
+  .my-education,
+  .additional-education {
+    margin-left: 100px;
   }
 }
 
@@ -470,5 +506,77 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px 90px;
+  }
+
+  .name,
+  .job-title {
+    padding-left: 100px;
+  }
+
+  .my-tasks {
+    padding-left: 180px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pet-projects-list {
+    padding-left: 220px;
+  }
+
+  .my-tasks {
+    padding-left: 220px;
+  }
+
+  .my-pos,
+  .achievements,
+  .my-achieve,
+  .my-study-f,
+  .country-year,
+  .my-study,
+  .my-school {
+    padding-left: 220px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .my-works {
+    padding-left: 40px;
+  }
+
+  .my-pos,
+  .my-tasks,
+  .achievements,
+  .my-achieve,
+  .my-study-f,
+  .country-year,
+  .my-study,
+  .my-school {
+    padding-right: 70px;
+    text-align: center;
+  }
+
+  .pet-projects-list {
+    padding-left: 270px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    border: none;
+    padding-left: 15px;
+  }
+
+  .pet-projects-list {
+    padding-left: 380px;
+  }
+
+  .my-works {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .pet-projects-list {
+    padding-left: 220px;
   }
 }
