@@ -579,3 +579,9 @@ h2 {
     padding-left: 220px;
   }
 }
+
+@media screen and (min-width: 1560px) {
+  .pet-projects-list {
+    padding-left: 250px;
+  }
+}
